@@ -1,0 +1,42 @@
+@media (min-width: 390px) and (max-width: 720px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  header p, header h6, header h1 {
+    color: #13353D;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    height: auto;
+    width: auto;
+    margin: 0;
+  }
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  header h6 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  header img {
+    width: 322px;
+    height: 163px;
+    border-radius: 8px;
+  }
+  header p {
+    color: #000;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+  }
+}/*# sourceMappingURL=Header.css.map */

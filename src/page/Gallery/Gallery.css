@@ -1,0 +1,47 @@
+@media (min-width: 390px) and (max-width: 720px) {
+  .gal-block .main-gal, .gal-block .head-gal, .gal-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+  .gal-block {
+    position: relative;
+    flex-direction: column;
+  }
+  .gal-block .head-gal {
+    flex-direction: column;
+  }
+  .gal-block .head-gal img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    transform: rotate(-25.205deg);
+  }
+  .gal-block .head-gal h1 {
+    color: #000;
+    text-align: center;
+    font-family: Noto Serif HK;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .gal-block .head-gal .line1 {
+    width: 224px;
+    height: 1px;
+    background: #000;
+  }
+  .gal-block .head-gal .line2 {
+    margin-top: 20px;
+    width: 161px;
+    height: 1px;
+    background: #000;
+  }
+  .gal-block .main-gal {
+    flex-flow: wrap;
+  }
+}/*# sourceMappingURL=Gallery.css.map */

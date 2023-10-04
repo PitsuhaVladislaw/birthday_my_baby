@@ -1,0 +1,71 @@
+@media (min-width: 390px) and (max-width: 720px) {
+    %setBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    %setText {
+        color: #FFF;
+        text-align: justify;
+        font-family: Yantramanav;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        width: auto;
+        height: auto;
+        margin: 0
+    }
+
+    section {
+        @extend %setBlock;
+        flex-direction: column;
+        gap: 25px;
+
+        .menu_button {
+            @extend %setBlock;
+            gap: 25px;
+
+            div {
+                @extend %setBlock;
+                flex-direction: column;
+                width: 142px;
+                height: 134px;
+                border-radius: 8px;
+                padding: 35px 10px;
+                background: #4992A1;
+
+                img {
+                    width: 120px;
+                    height: 150px;
+                }
+
+                h2 {
+                    @extend %setText;
+                }
+            }
+        }
+
+        .gallery {
+            @extend %setBlock;
+            flex-direction: column;
+            gap: 40px;
+
+            img {
+                width: 360px;
+                height: 220px;
+            }
+
+            button {
+                @extend %setBlock;
+                @extend %setText;
+                padding: 10px 60px;
+                border-radius: 8px;
+                background: #22535E;
+            }
+        }
+    }
+}
